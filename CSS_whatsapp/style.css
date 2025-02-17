@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parant{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chat{
+    max-width: 1000px;
+    border: 1px solid rgb(143, 143, 143);
+    height: 70vh;
+     flex: 1; /*اشرحلي اياها مش فاهما */
+    display: flex;
+}
+.sid_bar{
+    display: flex;
+    width: 25px;
+    flex-direction: column;
+    background-color: rgb(176, 186, 196);
+    padding: 3px;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+
+}
+.spac_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;padding: 3px;
+}
+.radias{
+    background: #d0d7db;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 5px 2px;
+}
+
+.name_contact_chat{
+    overflow:auto ;
+}
+.sidbar_chat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 3px 5px;
+
+}
+
+
+.whatsapp_01{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%
+}
+.chat_box{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+.header_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px ;
+    align-items: center;
+    height: 50px;
+    background-color: #d0d7db;
+}
+.box_heder_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.main_chat_box{
+    display: flex;
+    flex-direction: column;
+    background-color: #eaecef;
+   justify-content: center;
+   align-items: center;
+    height: 100%;
+    text-align: center;
+    
+}
+.marg_windos{
+    margin: 25px 0px 25px;
+}
+.butt_wendo{
+    background-color: #008069;
+    padding: 10px 24px;
+    border-radius:20px ;
+    color: #eaecef;
+    margin-bottom: 20px;
+} 
+.img_chat{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%
+}
+.img_avatar_1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%
+}
+.whatsapp_img{
+    width: 320px ;
+    height:188 ;
+
+}
+.chat_box{
+    display: flex;
+    border: 1px solid black;
+    flex: 3;
+}
